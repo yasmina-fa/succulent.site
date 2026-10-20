@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>О суккулентах</title>
+    <style>
+        body {
+        background-image: url(images/Phonovoe.png);
+        background-repeat: repeat;
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+        a:hover {
+            background-color: rgb(33, 122, 223);
+        }
+        a.active {
+            background-color: rgb(255, 179, 0);
+        }
+        ul.menu {
+    list-style: none;      
+    padding: 0;
+    margin: 0;
+    display: flex;          
+    flex-wrap: wrap;        
+    gap: 45px;              
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+ul.menu a {
+    text-decoration: none;  
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+}
+    </style>
+</head>
+<body>
+
+<h1>Мир суккулентов</h1>
+<ul class="menu">
+    <li><a href="index.html" >Главная</a></li>
+    <li><a href="info.html" class="active">О суккулентах</a></li>
+    <li><a href="choose.html">Как подобрать суккулент</a></li>
+    <li><a href="form.html">Форма для заполнения</a></li>
+    <li><a href="passport.html">Паспорт</a></li>
+    <li><a href="algotask.html">Задача</a></li>
+    <li><a href="#bottom">Перейти вниз</a></li>
+    <li><a href="https://www.pinterest.com/" target="_blank">Внешний сайт (Pinterest)</a></li>
+     <li><a href="https://www.pinterest.com/" target="_blank"><img src="images/icon.png" width="20" alt="Pinterest"></a></li>
+    
+</ul>
+
+<hr>
+
+<h2>Что такое суккуленты?</h2>
+
+<p>
+    Суккуленты — это растения, которые приспособились запасать воду в своих 
+    листьях, стеблях или корнях. Благодаря этому они могут выживать в засушливых 
+    условиях и не требуют частого полива.
+
+</p>
+
+<!-- Навигация внутри страницы -->
+<p>
+    <b>Навигация по странице:</b><br>
+    <a href="#types">Виды суккулентов</a> |
+    <a href="#care">Уход</a> |
+    <a href="#list">Списки</a> |
+    <a href="#bottom">Вниз страницы</a>
+</p>
+
+<hr>
+
+<!-- РАЗДЕЛ 1: Виды суккулентов -->
+<h3 align="center"id="types">Виды суккулентов</h3>
+
+<p>
+    Суккуленты делятся на несколько групп по типу запасания воды.
+</p>
+
+<!-- Нумерованный список -->
+<ol reversed>
+    <li>Листовые суккуленты — запасают воду в листьях (алоэ, эхеверия, хавортия).</li>
+    <li>Стеблевые суккуленты — запасают воду в стеблях (кактусы, молочаи).</li>
+    <li>Корневые суккуленты — запасают воду в корнях (некоторые виды литопсов).</li>
+</ol>
+
+<p>
+    <img src="images/aloe.jpg" width="300" alt="Алоэ" 
+         style="border-radius: 8px;">
+    <br>
+    <i>Алоэ — один из самых известных листовых суккулентов.</i>
+</p>
+
+<hr>
+
+<!-- РАЗДЕЛ 2: Уход -->
+<h3 align="center" id="care">Уход за суккулентами</h3>
+
+<p>
+    Суккуленты неприхотливы, но есть несколько правил, которые важно соблюдать.
+</p>
+
+<!-- Ненумерованный  -->
+<ul>
+    <li>Полив: редко, но обильно, только когда почва полностью просохла.</li>
+    <li>Освещение: большинство суккулентов любят яркий свет.</li>
+    <li>Почва: рыхлая, с песком или перлитом.</li>
+    <li>Температура: комнатная, зимой — прохладнее.</li>
+</ul>
+
+<p>
+    <img src="images/Echeveria.jpg" width="300" alt="Эхеверия" 
+         style="border-radius: 8px;">
+    <br>
+    <b>Эхеверия — популярный суккулент с розеткой листьев.</b>
+</p>
+
+<hr>
+
+<!-- Вложенный -->
+<h3 align="center"id="list">Полезные списки</h3>
+
+<p><b>Популярные суккуленты по категориям:</b></p>
+
+<ul>
+    <li>Листовые:
+        <ul>
+            <li>Алоэ</li>
+            <li>Эхеверия</li>
+            <li>Хавортия</li>
+        </ul>
+    </li>
+    <li>Стеблевые:
+        <ul>
+            <li>Кактусы</li>
+            <li>Молочаи</li>
+        </ul>
+    </li>
+    <li>Корневые:
+        <ul>
+            <li>Литопсы</li>
+        </ul>
+    </li>
+</ul>
+
+<hr>
+
+<h3>Большая фотография</h3>
+
+<p>
+    Нажмите на миниатюру, чтобы открыть большое изображение в новом окне и рассмотреть эхеверию:
+</p>
+
+<p>
+    <a href="big_img.html" target="_blank">
+        <img src="images/Echeveria1.jpg" width="100" alt="Миниатюра суккулента">
+    </a>
+</p>
+
+<hr>
+<a id="bottom"></a>
+
+</body>
+</html>

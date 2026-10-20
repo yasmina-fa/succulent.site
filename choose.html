@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Как подобрать суккулент</title>
+    <style>
+        body {
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+       a:hover {
+            background-color: rgb(33, 122, 223);
+        }
+        a.active {
+            background-color: rgb(255, 179, 0);
+        }
+        ul.menu {
+    list-style: none;       
+    padding: 0;
+    margin: 0;
+    display: flex;         
+    flex-wrap: wrap;       
+    gap: 45px;              
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+ul.menu a {
+    text-decoration: none; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+}
+    </style>
+</head>
+<body>
+
+    <h1>Мир суккулентов</h1>
+<ul class="menu">
+    <li><a href="index.html" >Главная</a></li>
+    <li><a href="info.html" >О суккулентах</a></li>
+    <li><a href="choose.html"class="active">Как подобрать суккулент</a></li>
+    <li><a href="form.html" >Форма для заполнения</a></li>
+    <li><a href="passport.html">Паспорт</a></li>
+    <li><a href="algotask.html">Задача</a></li>
+    <li><a href="#bottom">Перейти вниз</a></li>
+    <li><a href="https://www.pinterest.com/" target="_blank">Внешний сайт (Pinterest)</a></li>
+     <li><a href="https://www.pinterest.com/" target="_blank"><img src="images/icon.png" width="20" alt="Pinterest"></a></li>
+    
+</ul>
+
+<h3 align="center">Сравнительная таблица суккулентов</h3>
+
+<table align="center" 
+       width="700" 
+       border="5" 
+       cellspacing="10" 
+       cellpadding="10"
+       background="images/Phonovoe.png">
+
+    <!-- Строка 1 -->
+    <tr>
+        <td colspan="4" bgcolor=#F0DAD5 height="50" align="center">
+            <b>Суккуленты: сравнение популярных видов</b>
+        </td>
+    </tr>
+
+    <!-- Строка 2 -->
+    <tr bgcolor= #808080>
+        <th>Название</th>
+        <th>Свет</th>
+        <th>Полив</th>
+        <th>Сложность</th>
+    </tr>
+
+    <!-- Строка 3 -->
+    <tr>
+        <td>Алоэ</td>
+        <td>Яркий</td>
+        <td>Редкий</td>
+        <td rowspan="2"  align="center">
+            <img src="images/aloe.jpg" width="150" alt="Алоэ">
+            <br>
+            <i>Алоэ — для новичка</i>
+        </td>
+    </tr>
+
+    <!-- Строка 4 -->
+    <tr>
+        <td>Эхеверия</td>
+        <td>Яркий</td>
+        <td>Умеренный</td>
+    </tr>
+
+    <!-- Строка 5 -->
+    <tr>
+        <td>Хавортия</td>
+        <td>Полутень</td>
+        <td>Редкий</td>
+        <td>Лёгкая</td>
+    </tr>
+
+    <!-- Строка 6 -->
+    <tr>
+        <td>Литопсы</td>
+        <td>Яркий</td>
+        <td>Очень редкий</td>
+        <td>Сложная</td>
+    </tr>
+
+    <tr>
+        <td colspan="2" align="center">
+            <a href="https://ru.wikipedia.org/wiki/Алоэ" target="_blank">
+                Алоэ в Википедии
+            </a>
+        </td>
+        <td colspan="2" align="center">
+            <a href="https://ru.wikipedia.org/wiki/Эхеверия" target="_blank">
+                Эхеверия в Википедии
+            </a>
+        </td>
+    </tr>
+
+</table>
+<a id="bottom"></a>
+</body>
+</html>

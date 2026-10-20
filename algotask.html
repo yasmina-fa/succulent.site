@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задача</title>
+    <style>
+       a:hover {
+            background-color: rgb(33, 122, 223);
+        }
+        a.active {
+            background-color: rgb(255, 179, 0);
+        }
+        ul.menu {
+    list-style: none;       
+    padding: 0;
+    margin: 0;
+    display: flex;          
+    flex-wrap: wrap;        
+    gap: 45px;              
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+ul.menu a {
+    text-decoration: none;  
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+}
+    </style>
+</head>
+<body>
+
+    <h1>Мир суккулентов</h1>
+<ul class="menu">
+    <li><a href="index.html" >Главная</a></li>
+    <li><a href="info.html" >О суккулентах</a></li>
+    <li><a href="choose.html">Как подобрать суккулент</a></li>
+    <li><a href="form.html" >Форма для заполнения</a></li>
+    <li><a href="passport.html">Паспорт</a></li>
+    <li><a href="algotask.html"class="active">Задача</a></li>
+    <li><a href="#bottom">Перейти вниз</a></li>
+    <li><a href="https://www.pinterest.com/" target="_blank">Внешний сайт (Pinterest)</a></li>
+    <li><a href="https://www.pinterest.com/" target="_blank"><img src="images/icon.png" width="20" alt="Pinterest"></a></li>
+    
+</ul>
+    <p name="formulation">Дано число X. Определить, принадлежит ли это число заданному промежутку [a, b].</p>
+    
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <ul>
+            <li>Для поисковика:<input name="q" value="search"></li>
+            
+            <li>Формулировка задачи 
+                <br><textarea cols="60" rows="4" id="task" name="formulation">Дано число X. Определить, принадлежит ли это число заданному промежутку [a, b].</textarea>
+            </li>
+            
+            <li>a: <input id="a" name="a" type="number" value="10"></li>
+            <li>b: <input id="b" name="b" type="number" value="20"></li>
+            <li>x: <input id="x" name="x" type="number" value="15"></li>
+            
+            <li>Результат решения задачи: <input id="result" name="result" value="не определен"></li>
+            
+            <li>действие 1: <input id="verify" type="button" value="Проверить"></li>
+            <li>действие 2: <input id="send" type="button" value="Отправить"></li>
+        </ul>
+    </form>
+
+    <script src="scripts/algotask.js"></script>
+
+<a id="bottom"></a>
+</body>
+</html>

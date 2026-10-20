@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      
+        a:hover {
+            background-color: rgb(33, 122, 223);
+        }
+        a.active {
+            background-color: rgb(255, 179, 0);
+        }
+        ul.menu {
+    list-style: none;       
+    padding: 0;
+    margin: 0;
+    display: flex;          
+    flex-wrap: wrap;        
+    gap: 45px;              
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+ul.menu a {
+    text-decoration: none;  
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+}
+    </style>
+
+    <title>Паспорт</title>
+      <style type="text/css">
+          body{
+            background-image: url(images/pasport_shablon.png);
+            background-position: left 170px;
+            background-repeat: no-repeat;
+          }
+          .fam{
+            margin-left: 175px;
+            margin-top: 360px;
+          }
+          .name{
+            margin-left: 175px;
+            margin-top: 22px;
+          }
+          .surname{
+            margin-left: 175px;
+            margin-top: 6px;
+          }
+          .bth{
+            margin-left: 175px;
+            margin-top: 10px;
+          }
+          .img{
+            margin-left: 29px;
+            margin-top: -60px;
+          }
+          .date_reg{
+            margin-left: 100px;
+            margin-top: -370px;
+          }
+          .reg{
+            margin-left: 90px;
+            margin-top: -87px;
+          }
+          .city{
+            margin-left: 179px;
+            margin-top: 370px;
+          }
+          .button{
+            margin-left: 10px;
+            margin-top: 200px;
+          }
+
+      </style>
+  </head>
+  <body>
+<h1>Мир суккулентов</h1>
+<ul class="menu">
+    <li><a href="index.html" >Главная</a></li>
+    <li><a href="info.html">О суккулентах</a></li>
+    <li><a href="choose.html">Как подобрать суккулент</a></li>
+    <li><a href="form.html">Форма для заполнения</a></li>
+    <li><a href="passport.html"class="active">Паспорт</a></li>
+    <li><a href="algotask.html">Задача</a></li>
+    <li><a href="#bottom">Перейти вниз</a></li>
+    <li><a href="https://www.pinterest.com/" target="_blank">Внешний сайт (Pinterest)</a></li>
+    <li><a href="https://www.pinterest.com/" target="_blank"><img src="images/icon.png" width="20" alt="Pinterest"></a></li>
+    
+</ul>
+<div class="passport-area">
+
+<p class="fam" id="fam"><span>Алоев</span></p>       
+<p class="name" id="imya"><span>Эрхиверий</span></p>       
+<p class="surname" id="otc"><span>Суккулентович</span></p>
+<p class="bth" id="bth">Муж &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17.06.2007</p>
+
+<div class="img"> <img src="images/Bruh guy.jpg" height="110" width="100"> </div>
+<div class="date_reg"> 01.01.2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;770-070 </div>
+<div class="reg"> МВД по Республике Башкортостан </div>
+<div class="city"> г. УФА </div>
+<button class="button" id="change"> Заменить </button>
+<hr>
+
+
+    <div style="text-align: center; margin-top: 30px;">
+    <h3>DOM_JS. Считываем информацию из DOM</h3>
+    <p>Результат:</p>
+    <img src="images/screnshoot.png" width="700" alt="Скриншот консоли" style="border: 2px solid #ccc; border-radius: 8px;">
+    </div>
+
+<a id="bottom"></a>
+<script src = "./scripts/passport.js"> </script>
+</body>
+</html>
